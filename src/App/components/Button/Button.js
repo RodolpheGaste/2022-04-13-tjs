@@ -4,8 +4,7 @@ import './Button.css'
 const Button = (props) => {
     console.log(props);
     return <button onClick={(evt) => {
-        alert("Button clicked");
-        console.log(evt);
+        props.onButtonClicked('Un truc à afficher')
     }
     } className="Button">{props.text}</button>;
 
