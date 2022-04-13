@@ -12,9 +12,9 @@ function App() {
         <img src="/img/OK.png" />
         <div style={{ display: "inline" }}>Text</div>
         </Button>
-      <Button>de lu</Button>
+      <Button bgColor="Plum">de lu</Button>
       <Button><img src="/img/OK.png" /></Button>
-      <Button /><br />
+      <Button color="yellow"> truc</Button> <br />
     </div>
   );
 }
