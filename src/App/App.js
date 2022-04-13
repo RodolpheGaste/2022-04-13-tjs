@@ -6,9 +6,10 @@ function App() {
   return (
     <div className="App">
       DEMAT BREIZH<br/>
-      <Button text = "Hello" onButtonClicked={(unParam)=>{
+      <Button bgColor="SandyBrown" text = "Hello" onButtonClicked={(unParam)=>{
         console.log(unParam);
-      }}/>
+      }}
+         />
       <Button text="de lu"/><Button text="Benj Button"/><Button/><br/>
     </div>
   );
