@@ -1,5 +1,5 @@
 import React from "react";
-import "./Button.css";
+import styles from "./Button.module.css";
 
 const Button = (props) => {
     console.log(props);
@@ -9,7 +9,7 @@ const Button = (props) => {
             onClick={(evt) => {
                 props.onButtonClicked("Un truc à afficher");
             }}
-            className="Button"
+            className={styles.Button}
         >
             {props.children}
         </button>
