@@ -1,9 +1,13 @@
 import React from 'react'
 import './Button.css'
 
-const Button = (props)=>{
+const Button = (props) => {
     console.log(props);
-    return <button className="Button">{props.text}</button>;
+    return <button onClick={(evt) => {
+        alert("Button clicked");
+        console.log(evt);
+    }
+    } className="Button">{props.text}</button>;
 
 }
 
