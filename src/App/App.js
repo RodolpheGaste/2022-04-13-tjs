@@ -5,12 +5,16 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      DEMAT BREIZH<br/>
-      <Button bgColor="SandyBrown" text = "Hello" onButtonClicked={(unParam)=>{
+      DEMAT BREIZH<br />
+      <Button bgColor="SandyBrown" onButtonClicked={(unParam) => {
         console.log(unParam);
-      }}
-         />
-      <Button text="de lu"/><Button text="Benj Button"/><Button/><br/>
+      }}>
+        <img src="/img/OK.png" />
+        <div style={{ display: "inline" }}>Text</div>
+        </Button>
+      <Button>de lu</Button>
+      <Button><img src="/img/OK.png" /></Button>
+      <Button /><br />
     </div>
   );
 }
